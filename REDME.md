@@ -1,0 +1,1 @@
+Este proyecto tiene como fin crear una version de Netflix, los fines son meramente educativos.
