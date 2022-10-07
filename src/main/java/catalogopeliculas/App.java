@@ -16,8 +16,10 @@ public class App
         Connection conn;
         try {
             conn=Conexion.getConnection();
+            Conexion.close(conn);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        
     }
 }
